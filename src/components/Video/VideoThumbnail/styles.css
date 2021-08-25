@@ -1,0 +1,32 @@
+
+.video-thumbnail-container {
+    display: flex;
+    margin-top: 16px;
+}
+
+.video-thumbnail {
+    max-width: 360px;
+    max-height: 240px;
+    background-color: black;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.video-title {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.video-meta {
+    font-size: 10px;
+}
+
+.video-description {
+    margin-top: 20px;
+    color: #606060;
+    font-size: 12px;
+}
